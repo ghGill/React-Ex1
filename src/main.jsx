@@ -5,8 +5,8 @@ import logo from './assets/logo.jpg'
 
 function Logo(props) {
   return (
-    <div>
-        <img src={logo}  className="logo"></img>
+    <div className="logo">
+        <img src={logo}></img>
     </div>
   )
 }
